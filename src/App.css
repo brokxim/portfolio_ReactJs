@@ -1,0 +1,9 @@
+.submit {
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px;
+}
+.profile-pic{
+  background-size: contain;
+  border: 2px solid gold;
+}

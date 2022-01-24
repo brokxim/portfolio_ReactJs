@@ -1,0 +1,133 @@
+{
+  "main": {
+    "name": "Ibrokhim ",
+    "occupation": "CEO of  ...",
+    "description": "I eat, sleep and breathe React",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Ibrokhim. I've been coding for over 2 years now. As a Frontend developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
+    "contactmessage": "Get in touch with me !",
+    "email": "ahatkulov98@gmail.com",
+    "phone": "+998 994080098",
+    "address": {
+      "street": "26 Furkat",
+      "city": "Tashkent",
+      "state": "Piskent",
+      "zip": "W3B D3V"
+    },
+    "website": "https://www.ibragim.com/course",
+    "resumedownload": "MyResume.pdf",
+    "social": [
+      {
+        "name": "telegram",
+        "url": "https://telegram.me/thisisibragim/",
+        "className": " fa-telegram"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/akhatkulov_ibrokhim",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/thisisibragim",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/ahatkulov_ibrohim/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ibrohimsoft",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "University of TUIT",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduated": "July 2021",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": "PAPA",
+        "title": "Founder and CEO",
+        "years": "May 2019 - Present",
+        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "Redux",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "70%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "60%"
+      },
+      {
+        "name": "Web Development",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Pizza (React JS)",
+        "category": "",
+        "image": "pizza.jpg",
+        "url": "https://pizzareact.vercel.app/"
+      },
+      {
+        "title": "Shopping Cart(React/Redux)",
+        "category": "",
+        "image": "shop.jpg",
+        "url": "https://redux-shop-seven.vercel.app/"
+      }
+      ,{
+        "title": "Dental App (React JS)",
+        "category": "",
+        "image": "dental.jpg",
+        "url": "https://dental-xi.vercel.app/"
+      },
+      {
+        "title": "DodoPizza (React/Redux)",
+        "category": "",
+        "image": "p.PNG",
+        "url": "https://pizza-fawn.vercel.app/"
+      }
+      
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Everybody in this country should learn how to program a computer, because it teaches you how to think !",
+        "user": "Steve Jobs"
+      },
+      {
+        "text": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight !",
+        "user": "Bill Gates"
+      }
+    ]
+  }
+}
