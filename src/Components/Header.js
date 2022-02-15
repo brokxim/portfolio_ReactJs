@@ -27,7 +27,6 @@ const Header = ({ data }) => {
         <a className="mobile-btn" href="#home" title="Hide navigation">
           Hide navigation
         </a>
-
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll" href="#home">
