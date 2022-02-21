@@ -5,7 +5,7 @@ const Portfolio = ({ data }) => {
     var projects = data.projects.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
-        <div key={projects.title} className="columns portfolio-item">
+        <div key={projects.title} className="columns portfolio-item ">
           <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
               <img alt={projects.title} src={projectImage} />
@@ -32,7 +32,7 @@ const Portfolio = ({ data }) => {
           <h1>Check Out Some of My Works.</h1>
            <div
             id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
+            className="bgrid-quarters s-bgrid-thirds cf "
           >
             {projects}
           </div>

@@ -114,6 +114,12 @@
         "category": "",
         "image": "p.PNG",
         "url": "https://pizza-fawn.vercel.app/"
+      },
+      {
+        "title": "Pomodoro Timer (React/Redux)",
+        "category": "",
+        "image": "pomodoro.jpg",
+        "url": "https://timer198.vercel.app/"
       }
       
     ]
