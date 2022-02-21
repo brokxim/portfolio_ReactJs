@@ -15,7 +15,7 @@ const Testimonials = ({ data }) => {
   }
 
   return (
-    <section id="testimonials">
+    <section id="testimonials r-0">
       <div className="text-container">
         <div className="row">
           <div className="two columns header-col">
