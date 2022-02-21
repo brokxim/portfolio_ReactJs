@@ -20,7 +20,7 @@
       {
         "name": "telegram",
         "url": "https://telegram.me/thisisibragim/",
-        "className": " fa-telegram"
+        "className": " fa-telegram text-warning"
       },
       {
         "name": "facebook",

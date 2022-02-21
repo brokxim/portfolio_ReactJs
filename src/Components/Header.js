@@ -11,7 +11,7 @@ const Header = ({ data }) => {
       return (
         <li key={network.name}>
           <a href={network.url}>
-            <i className={network.className}></i>
+            <i className={`${network.className} text-warning`}></i>
           </a>
         </li>
       );
@@ -63,15 +63,15 @@ const Header = ({ data }) => {
 
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">
+          <h1 className="responsive-headline text-warning pb-5">
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
-          <h3>
+          <h3 className=' bg-dark opacity- 0'>
             {/* Based in {city}. <span>{occupation}</span>. */}
              {description}.
           </h3>
           <hr />
-          <ul className="social">{networks}</ul>
+          <ul className="social ">{networks}</ul>
         </div>
       </div>
 
