@@ -70,6 +70,8 @@ header .banner-text h3 {
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   background-color: #0F0F0F;
+   opacity: 0.9;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -93,9 +95,11 @@ header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
+   transition: transform .2s;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a { color: gold; }
+header .social li a:hover { color: #11ABB0;}
+header .social li:hover {transform:scale(1.5); }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -103,13 +107,12 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #fff;
+   color: gold;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -118,7 +121,7 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
-
+header .scrolldown:hover {transform:scale(1.1); }
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -177,6 +180,9 @@ ul#nav li a {
 	-o-transition: color .2s ease-in-out;
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
+}
+ul#nav li a:hover {
+   color: #11ABB0;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
