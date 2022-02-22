@@ -22,7 +22,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />

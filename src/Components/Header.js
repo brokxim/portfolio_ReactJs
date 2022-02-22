@@ -19,7 +19,7 @@ const Header = ({ data }) => {
   }
 
   return (
-    <header id="home">
+    <header id="home" >
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
@@ -28,8 +28,8 @@ const Header = ({ data }) => {
           Hide navigation
         </a>
         <ul id="nav" className="nav d-flex justify-content-center">
-          <li className="current">
-            <a className="smoothscroll" href="#home">
+          <li className="current ">
+            <a className="smoothscroll " href="#home">
               Home
             </a>
           </li>
