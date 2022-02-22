@@ -54,14 +54,7 @@
         "description": "Graduated with First Class Honours"
       }
     ],
-    "work": [
-      {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
-      }
-    ],
+     
     "skills": [
       {
         "name": "ReactJs",
