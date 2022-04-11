@@ -96,12 +96,7 @@
         "image": "shop.jpg",
         "url": "https://redux-shop-seven.vercel.app/"
       }
-      ,{
-        "title": "Dental App (React JS)",
-        "category": "",
-        "image": "dental.jpg",
-        "url": "https://dental-xi.vercel.app/"
-      },
+      ,
       {
         "title": "DodoPizza (React/Redux)",
         "category": "",
